@@ -1,0 +1,12 @@
+mysql> create database cims;
+Query OK, 1 row affected (3.04 sec)
+
+mysql> use cims;
+Database changed
+mysql> create table crime(crimeid int, crimedate date, place_of_crime varchar(50),crimetype varchar(20),no_of_victims int,crime_disc varchar(200), suspected_name varchar(20),case_status boolean);
+Query OK, 0 rows affected (3.89 sec)
+
+mysql> create table criminal(criminalId int, name varchar(20), age int , gender varchar(10),area_ofcrime varchar(50),criminal_crime_type varchar(50));
+Query OK, 0 rows affected (1.39 sec)
+
+mysql> alter table crime add primary key (crimeid);

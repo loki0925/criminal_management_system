@@ -13,7 +13,7 @@ public class Crime {
 	private String suspected_name;
 	private boolean case_solved;
 	public int getCrimeNo() {
-		return crimeNo;
+		return crimeNo;		
 	}
 	public void setCrimeNo(int crimeNo) {
 		this.crimeNo = crimeNo;
